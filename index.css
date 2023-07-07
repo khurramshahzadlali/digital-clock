@@ -8,6 +8,8 @@ body {
   justify-content: center;
   background-image: url("https://images.unsplash.com/photo-1519668752166-ebdbfe986afd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c2VtaSUyMG51ZGV8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=600&q=60");
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
   color: aliceblue;
   font-family: sans-serif;
 }
@@ -37,7 +39,7 @@ h2 {
     justify-content: center;
     align-items: center;
     font-size: 50px;
-    text-shadow: 2px 2px 4px rgba(255,255,255,0.9);
+    text-shadow: 2px 2px 4px gray;
 }
 
 .clock .text {
