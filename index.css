@@ -12,6 +12,7 @@ body {
   background-position: center center;
   color: aliceblue;
   font-family: sans-serif;
+  overflow: hidden;
 }
 
 h2 {
