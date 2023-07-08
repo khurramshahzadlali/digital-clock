@@ -12,7 +12,6 @@ body {
   background-position: center center;
   color: aliceblue;
   font-family: sans-serif;
-  overflow: hidden;
 }
 
 h2 {
@@ -24,8 +23,6 @@ h2 {
 
 .clock {
     display: flex;
-    position: relative;
-    text-align: center;
 }
 
 .clock div {
@@ -41,7 +38,7 @@ h2 {
     justify-content: center;
     align-items: center;
     font-size: 50px;
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 2px 2px 4px dimgray;
 }
 
 .clock .text {
@@ -53,7 +50,7 @@ h2 {
 }
 
 .clock #ampm {
-    bottom: 5px;
-    position: absolute;
+    bottom: -80px;
+    position: relative;
     width: 50px;
 }
