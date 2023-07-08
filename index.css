@@ -25,6 +25,7 @@ h2 {
 .clock {
     display: flex;
     position: relative;
+    text-align: center;
 }
 
 .clock div {
@@ -40,7 +41,7 @@ h2 {
     justify-content: center;
     align-items: center;
     font-size: 50px;
-    text-shadow: 2px 2px 4px gray;
+    text-shadow: 2px 2px 4px black;
 }
 
 .clock .text {
