@@ -6,11 +6,11 @@ body {
   align-items: center;
   height: 100vh;
   justify-content: center;
-  background-image: url("https://images.unsplash.com/photo-1519668752166-ebdbfe986afd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c2VtaSUyMG51ZGV8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=600&q=60");
+  background: linear-gradient(#00bfff,#a5d6a7);
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
-  color: aliceblue;
+  color: black;
   font-family: sans-serif;
 }
 
@@ -47,6 +47,7 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
     opacity: .7;
+    font-weight: 400;
 }
 
 .clock #ampm {
