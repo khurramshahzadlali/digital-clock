@@ -338,6 +338,132 @@ function updateClock() {
 }
 ```
 
+#### Step 4: Assign Values to Variables
+In this step, we will assign values to the variables h, m, s, and ampm by retrieving the current time using JavaScript's Date() object.
+```js
+function updateClock() {
+  // Assign values to the current time components
+  var h = new Date().getHours(),
+      m = new Date().getMinutes(),
+      s = new Date().getSeconds(),
+      ampm = "AM"; // Default value set to "AM"
+  }
+
+#### Step 5: Auto Change AM/PM Indicator
+In this step, we will add an if-else logic to automatically update the `ampm` variable based on the value of the `h` variable. If the hour is greater than 12, the ampm variable will be set to "PM". Otherwise, it will be set to "AM".
+
+```js
+function updateClock() {
+  // Assign values to the current time components
+  var h = new Date().getHours(),
+      m = new Date().getMinutes(),
+      s = new Date().getSeconds(),
+      ampm; // Declare the ampm variable
+  
+  // Auto change AM/PM indicator
+  if (h > 12) {
+    ampm = "PM";
+  } else {
+    ampm = "AM";
+  }
+}
+```
+#### Step 6: Add Leading Zeroes
+In this step, we will use the ternary operator (?) to add a leading zero to the h, m, and s variables if they are less than 10. This will ensure that the digits are displayed properly in the clock.
+```js
+function updateClock() {
+  // Assign values to the current time components
+  var h = new Date().getHours(),
+      m = new Date().getMinutes(),
+      s = new Date().getSeconds(),
+      ampm; // Declare the ampm variable
+  
+  // Auto change AM/PM indicator
+  if (h > 12) {
+    ampm = "PM";
+  } else {
+    ampm = "AM";
+  }
+  
+  // Add leading zeroes to the variables if necessary
+  h = h < 10 ? "0" + h : h;
+  m = m < 10 ? "0" + m : m;
+  s = s < 10 ? "0" + s : s;
+}
+```
+#### Step 7: Manipulate the DOM
+In this step, we will use the `getElementById()` method to access the HTML elements with below IDs:
+
+"hours": Represents the element where the hours will be displayed.
+"minutes": Represents the element where the minutes will be displayed.
+"seconds": Represents the element where the seconds will be displayed.
+"ampm": Represents the element where the AM/PM indicator will be displayed.
+Update their `innerText` property with the values stored in the variables h, m, s, and ampm. This will update the clock display in the browser.
+```js
+function updateClock() {
+  // Assign values to the current time components
+  var h = new Date().getHours(),
+      m = new Date().getMinutes(),
+      s = new Date().getSeconds(),
+      ampm; // Declare the ampm variable
+  
+  // Auto change AM/PM indicator
+  if (h > 12) {
+    ampm = "PM";
+  } else {
+    ampm = "AM";
+  }
+  
+  // Add leading zeros to time components if necessary
+  h = h < 10 ? "0" + h : h;
+  m = m < 10 ? "0" + m : m;
+  s = s < 10 ? "0" + s : s;
+  
+  // Update the clock display in the browser
+  document.getElementById("hours").innerText = h;
+  document.getElementById("minutes").innerText = m;
+  document.getElementById("seconds").innerText = s;
+  document.getElementById("ampm").innerText = ampm;
+}
+```
+#### Step 8: Update Clock Display Every Second
+In this final step, we will use the setInterval() method to call the updateClock() function every second. This will ensure that the clock display is updated in real-time.
+```js
+// Call the updateClock() function every second
+setInterval(updateClock, 1000);
+```
+By using setInterval(), we pass in the updateClock function as the first argument and specify a time interval of 1000 milliseconds (1 second). This will trigger the updateClock() function every second, keeping the clock display up to date.
+
+That concludes the JavaScript section of creating a digital clock. The complete code should include all the steps mentioned above.
+
+## Summary
+
+Throughout this project, we have learned and practiced the fundamentals of HTML, CSS, and JavaScript by creating a digital clock. Let's summarize the outcomes achieved in each of these areas:
+
+### HTML:
+
+- Understanding the basic HTML structure and elements.
+- Adding the necessary elements to create the layout of the digital clock.
+- Using meta tags for character encoding and responsive design.
+### CSS:
+
+- Applying styles to the HTML elements to design the visual appearance of the digital clock.
+- Using CSS properties like margin, display, flexbox, background-color, font-family, etc., to achieve the desired layout and styling.
+- Selecting and targeting HTML elements using class and ID selectors.
+### JavaScript:
+
+- Creating a JavaScript file and linking it to the HTML document.
+- Defining and calling functions to update the clock display.
+- Retrieving the current time using the Date() object.
+- Manipulating the DOM to update the clock display dynamically.
+- Utilizing conditional (ternary) operator for logical operations.
+- Using setInterval() to repeatedly call a function at specified intervals.
+- By combining these three technologies, we have successfully created a digital clock that shows the current time accurately and updates in real-time. This project has provided hands-on experience in integrating HTML, CSS, and JavaScript to build a functional and interactive web component.
+
+
+
+
+
 
 
 
