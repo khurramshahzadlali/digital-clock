@@ -2,7 +2,6 @@
 
 ## Make a Digital Clock
 [I'm an inline-style link with title]("https://khurramshahzadlali.github.io/digital-clock/")
-  <iframe id="inlineFrameExample"
     
 In this project, we will learn how to make a digital clock using HTML, CSS, and JavaScript.
 
