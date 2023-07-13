@@ -466,7 +466,7 @@ Throughout this project, we have learned and practiced the fundamentals of HTML,
 - Refinement Assistance: Provided by *ChatGPT*.
 Special thanks to *Dr. Sahand Ghavidel* for the project idea and to *ChatGPT* for its valuable contributions in refining the instructions for this project.
 
-Please note that the code and implementation details provided in this project may have been modified and adapted based on the original idea and the collaborative refinement process.
+>Please note that the code and implementation details provided in this project may have been modified and adapted based on the original idea and the collaborative refinement process.
 
 
 
