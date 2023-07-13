@@ -2,6 +2,15 @@
 
 ## Make a Digital Clock
 
+<div>
+  <iframe id="inlineFrameExample"
+      title="Inline Frame Example"
+      width="300"
+      height="200"
+      src="https://khurramshahzadlali.github.io/digital-clock/">
+  </iframe>
+</div>
+
 In this project, we will learn how to make a digital clock using HTML, CSS, and JavaScript.
 
 Follow the steps below to write the code in the respective HTML, CSS, and JavaScript text areas.
