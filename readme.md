@@ -9,7 +9,8 @@ To see the live demonstration of the Digital Clock, click [here](https://khurram
 *Let's get started*
 
 ### HTML Section
-Start by creating a new HTML file and open it in your preferred text editor.
+
+Begin by creating a new HTML file in your preferred text editor. Open the file and proceed to add the necessary code step by step, following the instructions provided.
 
 #### Step 1: Add Document Type Declaration
 
@@ -168,6 +169,7 @@ Now we have concluded the HTML section. In the next section, we will proceed wit
 
 ### CSS Section
 Creating CSS styling will make the clock look attractive. To achieve this, we'll create a new CSS file called "index.css" and define the necessary styles.
+
 #### Step 1: Link CSS File
 Nest a `<link>` element in the `<head>` element and give it the name of the CSS file in the href attribute. Add the `rel` attribute with the value "stylesheet" and the `type` attribute with the value "text/css".
 
