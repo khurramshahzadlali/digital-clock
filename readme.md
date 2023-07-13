@@ -318,4 +318,13 @@ To link the JavaScript file to our HTML document. Add the following line of code
 ```html
 <script src="index.js"></script>
 ```
+#### Step 3: Create a Function
+In this step, we will create a function called `updateClock()` that will be responsible for updating the digital clock display with the current time.
+```js
+function updateClock() {
+  // Retrieve the current time
+  
+  // Update the clock display
+}
+```
 
