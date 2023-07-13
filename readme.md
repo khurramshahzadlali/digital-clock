@@ -306,7 +306,16 @@ Target the AM/PM indicator element within the `.clock` class to style the AM/PM 
 ```
 This concludes the CSS section of the project. In the next section, we will proceed with adding JavaScript code to make the digital clock functional.
 
+### JavaScript Section
+In the JavaScript section, we will write the necessary code to make our digital clock functional. JavaScript allows us to interact with HTML elements and update the clock display dynamically in real-time.
 
+To begin, we will create a JavaScript file named "index.js". This file will contain the JavaScript code for our digital clock.
 
+#### Step 1: Link JS File
 
+To link the JavaScript file to our HTML document. Add the following line of code within the <head> or <body> section of your HTML file:
+
+```html
+<script src="index.js"></script>
+```
 
