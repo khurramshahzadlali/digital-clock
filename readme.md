@@ -214,21 +214,21 @@ h2 {
   text-align: center;
 }
 ```
-Step 6: Target the Clock Digits
-Description: Target the clock digit elements within the .clock class to style the individual digit display.
+### Step 6: Target the Clock Digits
+Target the clock digit elements within the `.clock` class to style the individual digit display.
 
-Property Name	Property Value	Styling Purpose
-width	100px	Sets the width of the clock digit element
-height	80px	Sets the height of the clock digit element
-background-color	lightgrey	Sets the background color of the clock digit element
-opacity	0.9	Sets the opacity of the clock digit element
-display	flex	Displays the clock digit element as a flex container
-align-items	center	Centers the content vertically within the container
-justify-content	center	Centers the content horizontally within the container
-font-size	50px	Sets the font size of the clock digit
-text-shadow	2px 2px 4px dimgray	Adds a shadow to the clock digit text
-css
-Copy code
+|Property Name|	Property Value|	Styling Purpose|
+|---|---|---|
+|width|	100px|	Sets the width of the clock digit element|
+height|80px|Sets the height of the clock digit element|
+|background-color|	lightgrey	|Sets the background color of the clock digit element|
+|opacity|	0.9|	Sets the opacity of the clock digit element|
+|display|	flex|Displays the clock digit element as a flex container|
+|align-items|center|Centers the content vertically within the container|
+|justify-content|center|Centers the content horizontally within the container|
+|font-size|50px|Sets the font size of the clock digit|
+|text-shadow|2px 2px 4px dimgray|Adds a shadow to the clock digit text|
+```css
 .clock span {
   width: 100px;
   height: 80px;
@@ -240,20 +240,21 @@ Copy code
   font-size: 50px;
   text-shadow: 2px 2px 4px dimgray;
 }
-Step 7: Target the Text Elements
-Description: Target the text elements within the .clock class to style the labels for hours, minutes, seconds, and AM/PM.
+```
+### Step 7: Target the Text Elements
+Target the text elements within the `.clock` class to style the labels for hours, minutes, seconds, and AM/PM.
 
-Property Name	Property Value	Styling Purpose
-height	30px	Sets the height of the text element
-opacity	0.7	Sets the opacity of the text element
-display	flex	Displays the text element as a flex container
-align-items	center	Centers the content vertically within the container
-justify-content	center	Centers the content horizontally within the container
-font-size	14px	Sets the font size of the text element
-font-weight	400	Sets the font weight of the text element
-text-transform	uppercase	Converts the text to uppercase
-css
-Copy code
+|Property Name|	Property Value|	Styling Purpose|
+|---|---|---|
+|height|30px|Sets the height of the text element|
+|opacity|0.7|Sets the opacity of the text element|
+|display|flex|Displays the text element as a flex container|
+|align-items|center|Centers the content vertically within the container|
+|justify-content|center|Centers the content horizontally within the container|
+|font-size|14px|Sets the font size of the text element|
+|font-weight|400|Sets the font weight of the text element|
+|text-transform|uppercase|Converts the text to uppercase|
+```css
 .clock .text {
   height: 30px;
   opacity: 0.7;
@@ -264,20 +265,21 @@ Copy code
   font-weight: 400;
   text-transform: uppercase;
 }
-Step 8: Target the AM/PM Element
-Description: Target the AM/PM indicator element within the .clock class to style the AM/PM label.
+```
+### Step 8: Target the AM/PM Element
+Target the AM/PM indicator element within the `.clock` class to style the AM/PM label.
 
-Property Name	Property Value	Styling Purpose
-position	relative	Sets the position of the AM/PM element
-bottom	-80px	Moves the element up by 80 pixels
-width	50px	Sets the width of the AM/PM element
-css
-Copy code
+|Property Name|Property Value|Styling Purpose|
+|position|relative|Sets the position of the AM/PM element|
+|bottom|-80px|Moves the element up by 80 pixels|
+|width|50px|Sets the width of the AM/PM element|
+```css
 .clock #ampm {
   position: relative;
   bottom: -80px;
   width: 50px;
 }
+```
 This concludes the CSS section of the project. In the next section, we will proceed with adding JavaScript code to make the digital clock functional.
 
 
