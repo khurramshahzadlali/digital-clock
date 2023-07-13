@@ -4,7 +4,9 @@
 [Click here to see the live Digtal Clock](https://khurramshahzadlali.github.io/digital-clock/ "Digital Clock")
     
 Creating a digital clock using HTML is a fun and interactive way to show the current time on a web page. With HTML, CSS, and JavaScript, we can build a clock that updates in real-time. This tutorial will guide you through the process of making a digital clock using these technologies.
-*Let's get started 
+
+*Let's get started*
+
 ### HTML Section
 Start by creating a new HTML file and open it in your preferred text editor.
 
