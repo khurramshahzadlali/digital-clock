@@ -197,7 +197,7 @@ body {
   font-family: sans-serif;
 }
 ```
-### Step 3: Target the Heading Element
+#### Step 3: Target the Heading Element
 Target the `<h2>` element to style the heading of the digital clock.
 
 |Property Name|	Property Value|	Styling Purpose|
@@ -214,7 +214,7 @@ h2 {
   text-align: center;
 }
 ```
-### Step 6: Target the Clock Digits
+#### Step 6: Target the Clock Digits
 Target the clock digit elements within the `.clock` class to style the individual digit display.
 
 |Property Name|	Property Value|	Styling Purpose|
@@ -241,7 +241,7 @@ height|80px|Sets the height of the clock digit element|
   text-shadow: 2px 2px 4px dimgray;
 }
 ```
-### Step 7: Target the Text Elements
+#### Step 7: Target the Text Elements
 Target the text elements within the `.clock` class to style the labels for hours, minutes, seconds, and AM/PM.
 
 |Property Name|	Property Value|	Styling Purpose|
@@ -266,7 +266,7 @@ Target the text elements within the `.clock` class to style the labels for hours
   text-transform: uppercase;
 }
 ```
-### Step 8: Target the AM/PM Element
+#### Step 8: Target the AM/PM Element
 Target the AM/PM indicator element within the `.clock` class to style the AM/PM label.
 
 |Property Name|Property Value|Styling Purpose|
