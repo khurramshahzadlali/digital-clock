@@ -1,4 +1,4 @@
-6# Make a Digital Clock
+# Make a Digital Clock
 
 ## Learn and Practice HTML, CSS, and JavaScripts by creating a Digital Clock
     
