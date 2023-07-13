@@ -172,7 +172,7 @@ Creating CSS styling will make the clock look attractive. To achieve this, we'll
 Nest a `<link>` element in the `<head>` element and give it the name of the CSS file in the href attribute. Add the `rel` attribute with the value "stylesheet" and the `type` attribute with the value "text/css".
 
 ```html
-<link href="style.css" rel="stylesheet" type="text/css">
+<link href="index.css" rel="stylesheet" type="text/css">
 ```
 #### Step 2: Target the Body Element
 
