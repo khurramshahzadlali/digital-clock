@@ -346,7 +346,7 @@ function updateClock() {
   var h = new Date().getHours(),
       m = new Date().getMinutes(),
       s = new Date().getSeconds(),
-      ampm = "AM"; // Default value set to "AM"
+      ampm; // Declare the ampm variable
   }
 
 #### Step 5: Auto Change AM/PM Indicator
@@ -427,12 +427,12 @@ function updateClock() {
 }
 ```
 #### Step 8: Update Clock Display Every Second
-In this final step, we will use the setInterval() method to call the updateClock() function every second. This will ensure that the clock display is updated in real-time.
+In this final step, we will use the `setInterval()` method to call the `updateClock()` function every second. This will ensure that the clock display is updated in real-time.
 ```js
 // Call the updateClock() function every second
 setInterval(updateClock, 1000);
 ```
-By using setInterval(), we pass in the updateClock function as the first argument and specify a time interval of 1000 milliseconds (1 second). This will trigger the updateClock() function every second, keeping the clock display up to date.
+By using `setInterval()`, we pass in the updateClock function as the first argument and specify a time interval of 1000 milliseconds (1 second). This will trigger the `updateClock()` function every second, keeping the clock display up to date.
 
 That concludes the JavaScript section of creating a digital clock. The complete code should include all the steps mentioned above.
 
@@ -441,23 +441,22 @@ That concludes the JavaScript section of creating a digital clock. The complete 
 Throughout this project, we have learned and practiced the fundamentals of HTML, CSS, and JavaScript by creating a digital clock. Let's summarize the outcomes achieved in each of these areas:
 
 ### HTML:
-
 - Understanding the basic HTML structure and elements.
 - Adding the necessary elements to create the layout of the digital clock.
 - Using meta tags for character encoding and responsive design.
 ### CSS:
 
 - Applying styles to the HTML elements to design the visual appearance of the digital clock.
-- Using CSS properties like margin, display, flexbox, background-color, font-family, etc., to achieve the desired layout and styling.
+- Using CSS properties like `margin`, `display`, `flexbox`, `background-color`, `font-family`, etc., to achieve the desired layout and styling.
 - Selecting and targeting HTML elements using class and ID selectors.
 ### JavaScript:
 
 - Creating a JavaScript file and linking it to the HTML document.
 - Defining and calling functions to update the clock display.
-- Retrieving the current time using the Date() object.
+- Retrieving the current time using the `Date()` object.
 - Manipulating the DOM to update the clock display dynamically.
 - Utilizing conditional (ternary) operator for logical operations.
-- Using setInterval() to repeatedly call a function at specified intervals.
+- Using `setInterval()` to repeatedly call a function at specified intervals.
 - By combining these three technologies, we have successfully created a digital clock that shows the current time accurately and updates in real-time. This project has provided hands-on experience in integrating HTML, CSS, and JavaScript to build a functional and interactive web component.
 
 ##### Credits
