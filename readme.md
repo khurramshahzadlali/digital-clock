@@ -1,7 +1,7 @@
 # Learn and Practice HTML, CSS, and JavaScript
 
 ## Make a Digital Clock
-[Click here to see the live](https://khurramshahzadlali.github.io/digital-clock/ "Digital Clock")
+[Click here to see the live Digtal Clock](https://khurramshahzadlali.github.io/digital-clock/ "Digital Clock")
     
 In this project, we will learn how to make a digital clock using HTML, CSS, and JavaScript.
 
