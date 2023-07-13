@@ -460,7 +460,10 @@ Throughout this project, we have learned and practiced the fundamentals of HTML,
 - Using setInterval() to repeatedly call a function at specified intervals.
 - By combining these three technologies, we have successfully created a digital clock that shows the current time accurately and updates in real-time. This project has provided hands-on experience in integrating HTML, CSS, and JavaScript to build a functional and interactive web component.
 
+Credits:
+The development of this digital clock project and the accompanying instructions were based on the "50 HTML, CSS, and JavaScript Projects" Udemy course by Dr. Sahand Ghavidel. The course provided a valuable learning resource for web development projects.
 
+Remember to always explore and experiment further to expand your skills and understanding of web development. Happy coding!
 
 
 
