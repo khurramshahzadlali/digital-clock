@@ -220,6 +220,23 @@ h2 {
   text-align: center;
 }
 ```
+###2 Step 4: Target the Clock Container
+Target the .clock class in the CSS file and set its display property to flex:
+
+```css
+.clock {
+  display: flex;
+}
+```
+#### Step 5: Target the Clock Segments
+Target the .clock div elements in the CSS file and set their margin to 5px:
+
+```css
+.clock div {
+  margin: 5px;
+}
+```
+
 #### Step 6: Target the Clock Digits
 Target the clock digit elements within the `.clock` class to style the individual digit display.
 
@@ -276,6 +293,7 @@ Target the text elements within the `.clock` class to style the labels for hours
 Target the AM/PM indicator element within the `.clock` class to style the AM/PM label.
 
 |Property Name|Property Value|Styling Purpose|
+|---|---|---|
 |position|relative|Sets the position of the AM/PM element|
 |bottom|-80px|Moves the element up by 80 pixels|
 |width|50px|Sets the width of the AM/PM element|
