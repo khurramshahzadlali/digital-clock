@@ -188,7 +188,7 @@ Target the body element to style the overall appearance of the clock.
 |align-items|	center|	Centers flex items horizontally|
 |justify-content|	center|	Centers flex items vertically|
 |height|	100vh	|Sets the height to 100% of the viewport height|
-|background-color|	linear-gradient(#00bfff, #a5d6a7)	|Sets a gradient background color for the body|
+|background|	linear-gradient(#00bfff, #a5d6a7)	|Sets a gradient background color for the body|
 |font-family	|sans-serif|	Specifies the font family for the body text|
 
 ```css
@@ -199,7 +199,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: linear-gradient(#00bfff, #a5d6a7);
+  background: linear-gradient(#00bfff, #a5d6a7);
   font-family: sans-serif;
 }
 ```
