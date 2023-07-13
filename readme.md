@@ -348,7 +348,7 @@ function updateClock() {
       s = new Date().getSeconds(),
       ampm; // Declare the ampm variable
   }
-
+```
 #### Step 5: Auto Change AM/PM Indicator
 In this step, we will add an if-else logic to automatically update the `ampm` variable based on the value of the `h` variable. If the hour is greater than 12, the ampm variable will be set to "PM". Otherwise, it will be set to "AM".
 
