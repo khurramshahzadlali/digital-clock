@@ -394,11 +394,13 @@ function updateClock() {
 #### Step 7: Manipulate the DOM
 In this step, we will use the `getElementById()` method to access the HTML elements with below IDs:
 
-"hours": Represents the element where the hours will be displayed.
-"minutes": Represents the element where the minutes will be displayed.
-"seconds": Represents the element where the seconds will be displayed.
-"ampm": Represents the element where the AM/PM indicator will be displayed.
+- "hours": Represents the element where the hours will be displayed.
+- "minutes": Represents the element where the minutes will be displayed.
+- "seconds": Represents the element where the seconds will be displayed.
+- "ampm": Represents the element where the AM/PM indicator will be displayed.
+
 Update their `innerText` property with the values stored in the variables h, m, s, and ampm. This will update the clock display in the browser.
+
 ```js
 function updateClock() {
   // Assign values to the current time components
