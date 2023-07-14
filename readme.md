@@ -220,7 +220,7 @@ h2 {
   text-align: center;
 }
 ```
-###2 Step 4: Target the Clock Container
+#### Step 4: Target the Clock Container
 Target the .clock class in the CSS file and set its display property to flex:
 
 ```css
@@ -461,11 +461,7 @@ Throughout this project, we have learned and practiced the fundamentals of HTML,
 
 ##### Credits
 - Project Idea: Inspired by the "50 HTML, CSS, and JavaScript Projects" Udemy course by *Dr. Sahand Ghavidel*.
-- Instructions: Written by *Khurram Shahzad*.
 - Refinement Assistance: Provided by *ChatGPT*.
-
-Special thanks to *Dr. Sahand Ghavidel* for the project idea and to *ChatGPT* for its valuable contributions in refining the instructions for this project.
-
 >Please note that the code and implementation details provided in this project may have been modified and adapted based on the original idea and the collaborative refinement process.
 
 
