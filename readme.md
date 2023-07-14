@@ -436,32 +436,8 @@ By using `setInterval()`, we pass in the updateClock function as the first argum
 
 That concludes the JavaScript section of creating a digital clock. The complete code should include all the steps mentioned above.
 
-## Summary
-
-Throughout this project, we have learned and practiced the fundamentals of HTML, CSS, and JavaScript by creating a digital clock. Let's summarize the outcomes achieved in each of these areas:
-
-### HTML:
-- Understanding the basic HTML structure and elements.
-- Adding the necessary elements to create the layout of the digital clock.
-- Using meta tags for character encoding and responsive design.
-### CSS:
-
-- Applying styles to the HTML elements to design the visual appearance of the digital clock.
-- Using CSS properties like `margin`, `display`, `flexbox`, `background-color`, `font-family`, etc., to achieve the desired layout and styling.
-- Selecting and targeting HTML elements using class and ID selectors.
-### JavaScript:
-
-- Creating a JavaScript file and linking it to the HTML document.
-- Defining and calling functions to update the clock display.
-- Retrieving the current time using the `Date()` object.
-- Manipulating the DOM to update the clock display dynamically.
-- Utilizing conditional (ternary) operator for logical operations.
-- Using `setInterval()` to repeatedly call a function at specified intervals.
-- By combining these three technologies, we have successfully created a digital clock that shows the current time accurately and updates in real-time. This project has provided hands-on experience in integrating HTML, CSS, and JavaScript to build a functional and interactive web component.
-
 ##### Credits
 - Project Idea: Inspired by the "50 HTML, CSS, and JavaScript Projects" Udemy course by *Dr. Sahand Ghavidel*.
-- Refinement Assistance: Provided by *ChatGPT*.
 
 
 
